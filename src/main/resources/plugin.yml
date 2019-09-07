@@ -1,0 +1,15 @@
+name: EnvyRTP
+main: dev.anullihate.ertp.Main
+version: ${pom.version}
+api: ["1.0.0"]
+author: anullihate
+
+commands:
+  rtp:
+    description: RTP command
+    usage: "/rtp"
+    permission: rtp.command
+permissions:
+  rtp.command:
+    description: "RTP permission"
+    default: op
